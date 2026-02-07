@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-infinite > enzyme-adapter-react-16 > lodash:
+        patched: '2026-02-07T10:26:35.910Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-infinite > enzyme-adapter-react-16 > lodash
